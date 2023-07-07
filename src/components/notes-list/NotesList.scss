@@ -1,0 +1,42 @@
+.notes-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.notes-list__item {
+  position: relative;
+  margin-top: 8px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.notes-list__add-new {
+  margin-top: 8px;
+}
+
+.notes-list__textarea {
+  display: flex;
+  width: 100%;
+  padding: var(--padding-main);
+}
+
+.notes-list__remove-button {
+  box-shadow: none;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  font-size: 12px;
+}
